@@ -1,4 +1,4 @@
-const GAME_NAME = "htln mim";
+const GAME_NAME = "Jogo pweb";
 const GAME_VERSION = "1.0.0.0";
 
 const CACHE_NAME = JSON.stringify({"name": GAME_NAME, "version": GAME_VERSION});
