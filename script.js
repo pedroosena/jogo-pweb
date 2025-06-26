@@ -4,6 +4,7 @@ function enterFullScreen() {
 
     if (element.requestFullscreen) {
         element.requestFullscreen();
+        console.log("a")
     } else if (element.mozRequestFullScreen) { // Firefox
         element.mozRequestFullScreen();
     } else if (element.webkitRequestFullscreen) { // Chrome, Safari
